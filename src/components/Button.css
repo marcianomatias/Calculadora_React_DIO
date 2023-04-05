@@ -1,0 +1,35 @@
+/* Criando variavelno css */
+:root {
+    --bg-button:#f0f0f0;
+    --border-button: solid 1px #888;
+}
+
+.button {
+    font-size: 1.4em;
+    background-color: var(--bg-button);
+    border: none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+}
+/*quando ativado muda a cor*/
+.button:active{
+    background-color: #ccc; 
+}
+/*botao que ocupa dois espaços*/
+.button.double {
+    grid-column: span 2;  
+}
+/*botao que ocupa três espaços*/
+.button.triple {
+    grid-column: span 3;    
+}
+/* Botões de operacao laranja */
+.button.operation {         
+    background-color: #fa8231;
+    color: #fff;
+}
+
+.button.operation:active {
+    background-color: #fa8231cc;
+}

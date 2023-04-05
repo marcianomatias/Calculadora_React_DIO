@@ -1,0 +1,12 @@
+.display{
+    grid-column: span 4; /* display ocupará 4 colunas */
+    background-color: #0022;
+
+    display: flex;
+    justify-content: flex-end; /* final(horizontal) */
+    align-items: center; /*center(vertical)*/
+    padding: 20px;
+    font-size: 2.1em;
+
+    overflow: hidden;
+}
